@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64CE3955-99A9-497E-9D0C-3B1BBDDE6128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateway", "gateway", "{6EBFFECE-C315-47F4-B276-B353A681D868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "src\gateway\ApiGateway\ApiGateway.csproj", "{5EC14DC7-F462-4F2C-9673-0A728163C8A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{6E9029D9-9107-4316-B695-1779BA7916EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "catalog", "catalog", "{A292FA53-9590-4F08-925D-62B9FCDDEA70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Api", "src\services\catalog\Catalog.Api\Catalog.Api.csproj", "{30F3A9AA-4B58-4789-AD7F-593D0366AA32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Application", "src\services\catalog\Catalog.Application\Catalog.Application.csproj", "{E908ACF6-71CA-43FD-87DE-5C4294945152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Domain", "src\services\catalog\Catalog.Domain\Catalog.Domain.csproj", "{B9A88E16-B6C1-4FA2-B8F0-121526E88306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Infrastructure", "src\services\catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{B02EF87E-88E7-4C82-8A57-D9D4332AA9F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EC14DC7-F462-4F2C-9673-0A728163C8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC14DC7-F462-4F2C-9673-0A728163C8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC14DC7-F462-4F2C-9673-0A728163C8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC14DC7-F462-4F2C-9673-0A728163C8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F3A9AA-4B58-4789-AD7F-593D0366AA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F3A9AA-4B58-4789-AD7F-593D0366AA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F3A9AA-4B58-4789-AD7F-593D0366AA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F3A9AA-4B58-4789-AD7F-593D0366AA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E908ACF6-71CA-43FD-87DE-5C4294945152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E908ACF6-71CA-43FD-87DE-5C4294945152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E908ACF6-71CA-43FD-87DE-5C4294945152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E908ACF6-71CA-43FD-87DE-5C4294945152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A88E16-B6C1-4FA2-B8F0-121526E88306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A88E16-B6C1-4FA2-B8F0-121526E88306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A88E16-B6C1-4FA2-B8F0-121526E88306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A88E16-B6C1-4FA2-B8F0-121526E88306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02EF87E-88E7-4C82-8A57-D9D4332AA9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02EF87E-88E7-4C82-8A57-D9D4332AA9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02EF87E-88E7-4C82-8A57-D9D4332AA9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02EF87E-88E7-4C82-8A57-D9D4332AA9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EBFFECE-C315-47F4-B276-B353A681D868} = {64CE3955-99A9-497E-9D0C-3B1BBDDE6128}
+		{5EC14DC7-F462-4F2C-9673-0A728163C8A4} = {6EBFFECE-C315-47F4-B276-B353A681D868}
+		{6E9029D9-9107-4316-B695-1779BA7916EC} = {64CE3955-99A9-497E-9D0C-3B1BBDDE6128}
+		{A292FA53-9590-4F08-925D-62B9FCDDEA70} = {6E9029D9-9107-4316-B695-1779BA7916EC}
+		{30F3A9AA-4B58-4789-AD7F-593D0366AA32} = {A292FA53-9590-4F08-925D-62B9FCDDEA70}
+		{E908ACF6-71CA-43FD-87DE-5C4294945152} = {A292FA53-9590-4F08-925D-62B9FCDDEA70}
+		{B9A88E16-B6C1-4FA2-B8F0-121526E88306} = {A292FA53-9590-4F08-925D-62B9FCDDEA70}
+		{B02EF87E-88E7-4C82-8A57-D9D4332AA9F0} = {A292FA53-9590-4F08-925D-62B9FCDDEA70}
+	EndGlobalSection
+EndGlobal
