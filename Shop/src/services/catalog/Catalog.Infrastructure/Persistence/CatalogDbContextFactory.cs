@@ -8,7 +8,7 @@ public sealed class CatalogDbContextFactory : IDesignTimeDbContextFactory<Catalo
     public CatalogDbContext CreateDbContext(string[] args)
     {
         var options = new DbContextOptionsBuilder<CatalogDbContext>()
-            .UseSqlServer("connnn")
+            .UseSqlServer("Server=localhost;Database=CatalogDb;User ID=sa;Password=xxxxxxxxx;TrustServerCertificate=True")
             .Options;
 
         return new CatalogDbContext(options);
